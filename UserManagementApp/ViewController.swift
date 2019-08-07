@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     
-    @IBOutlet weak var scroller: UIView!
+    
     
     
     override func viewDidLoad() {
@@ -19,6 +19,21 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    @IBAction func tappedButton(_ sender: UIButton) {
+        
+    }
+    
+    
+    
+    
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "showResult"{
+//            let svc = segue.destination as! SecondViewController
+//        }
+//    }
+//
     
 
 }
