@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    var buttonName : String = ""
+    var buttonTag : Int = 0
     
     
     
@@ -28,11 +29,14 @@ class ViewController: UIViewController {
     
     
     
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "showResult"{
-//            let svc = segue.destination as! SecondViewController
-//        }
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+    guard segue.identifier == "function", let svc = segue.destination as?
+        SecondViewController else {return}
+        
+           svc.nameText = buttonName
+           svc.tag = buttonTag
+    }
 //
     
 
