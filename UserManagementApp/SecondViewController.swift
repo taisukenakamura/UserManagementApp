@@ -13,10 +13,10 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var personalLabel: UILabel!
     
-    var nameText : String = ""
-    var personText : String = ""
+//    var nameText : String = ""
+//    var personText : String = ""
     
-    var tag = 0
+    var getTag = 0
     
     
     var names : [String] = ["中村泰輔","永井優","小野勇輔","豊岡正紘","分目祐太","金田祐作","甲斐崎香","志賀大河","津國由莉子","堀田真","田内翔太郎","福沢貴一","平田奈那","吉澤優衣"]
@@ -38,12 +38,7 @@ class SecondViewController: UIViewController {
         ]
     
     
-    func selection(_ tag : Int){
-        
-        nameLabel.text = names[tag - 1]
-        personalLabel.text = hobbies[tag - 1]
-        
-    }
+    
     
     
     
@@ -54,6 +49,9 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        nameLabel.text = names[(getTag)]
+        personalLabel.text = hobbies[(getTag)]
+    
     }
     
     

@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var buttonName : String = ""
+//    var NameText : String = ""
+//    var personText : String = ""
     var buttonTag : Int = 0
     
     
@@ -20,9 +21,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    func checkName(){
+        
+    }
+    
     
     @IBAction func tappedButton(_ sender: UIButton) {
-        
+        let sendInformation = sender.tag
+        buttonTag = sendInformation
+        performSegue(withIdentifier: "function", sender: nil)
     }
     
     
@@ -32,11 +39,12 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
     guard segue.identifier == "function", let svc = segue.destination as?
-        SecondViewController else {return}
-        
-           svc.nameText = buttonName
-           svc.tag = buttonTag
-    }
+        SecondViewController else {
+            return
+            
+        }
+        svc.getTag = buttonTag
+        }
 //
     
 

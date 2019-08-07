@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserManagementApp/SecondViewController.swift"
-            timestampString = "586862997.43347"
+            timestampString = "586882974.460475"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "hobbies"
             landmarkType = "24">
          </BreakpointContent>
