@@ -13,7 +13,6 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
 //    趣味データを受け取り格納する変数
     @IBOutlet weak var personalLabel: UILabel!
-    
     //    var nameText : String = ""
     //    var personText : String = ""
 //    VCから受け取ってきたbuttonのタグ番号の初期値を設定する
