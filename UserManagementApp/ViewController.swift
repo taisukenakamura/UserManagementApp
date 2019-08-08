@@ -19,8 +19,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let backButtonItem = UIBarButtonItem(title: "戻る", style: .plain, target: nil, action: nil)
-        navigationItem.backBarButtonItem = backButtonItem
+//        let backButtonItem = UIBarButtonItem(title: "戻る", style: .plain, target: nil, action: nil)
+//        navigationItem.backBarButtonItem = backButtonItem
     }
     
     
