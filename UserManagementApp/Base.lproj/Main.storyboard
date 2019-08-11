@@ -31,7 +31,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="300" height="80"/>
                                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="mIr-ke-deX"/>
+                                                            <constraint firstAttribute="height" constant="80" id="mIr-ke-deX"/>
                                                         </constraints>
                                                         <state key="normal" title="中村　泰輔"/>
                                                         <connections>
@@ -42,7 +42,7 @@
                                                         <rect key="frame" x="0.0" y="85" width="300" height="80"/>
                                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="9AH-3D-HOR"/>
+                                                            <constraint firstAttribute="height" constant="80" id="9AH-3D-HOR"/>
                                                         </constraints>
                                                         <state key="normal" title="永井　優"/>
                                                         <connections>
@@ -53,7 +53,7 @@
                                                         <rect key="frame" x="0.0" y="170" width="300" height="80"/>
                                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="lYJ-Dn-Xg8"/>
+                                                            <constraint firstAttribute="height" constant="80" id="lYJ-Dn-Xg8"/>
                                                         </constraints>
                                                         <state key="normal" title="小野　勇輔"/>
                                                         <connections>
@@ -64,7 +64,7 @@
                                                         <rect key="frame" x="0.0" y="255" width="300" height="80"/>
                                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="7mN-4I-KdQ"/>
+                                                            <constraint firstAttribute="height" constant="80" id="7mN-4I-KdQ"/>
                                                         </constraints>
                                                         <state key="normal" title="豊岡　正紘"/>
                                                         <connections>
@@ -75,7 +75,7 @@
                                                         <rect key="frame" x="0.0" y="340" width="300" height="80"/>
                                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="2Cb-lK-TZM"/>
+                                                            <constraint firstAttribute="height" constant="80" id="2Cb-lK-TZM"/>
                                                         </constraints>
                                                         <state key="normal" title="分目　祐太"/>
                                                         <connections>
@@ -86,7 +86,7 @@
                                                         <rect key="frame" x="0.0" y="425" width="300" height="80"/>
                                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="oD0-Tr-sVw"/>
+                                                            <constraint firstAttribute="height" constant="80" id="oD0-Tr-sVw"/>
                                                         </constraints>
                                                         <state key="normal" title="金田　祐作"/>
                                                         <connections>
@@ -97,7 +97,7 @@
                                                         <rect key="frame" x="0.0" y="510" width="300" height="80"/>
                                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="TOg-2i-Nfl"/>
+                                                            <constraint firstAttribute="height" constant="80" id="TOg-2i-Nfl"/>
                                                         </constraints>
                                                         <state key="normal" title="甲斐崎　香"/>
                                                         <connections>
@@ -108,7 +108,7 @@
                                                         <rect key="frame" x="0.0" y="595" width="300" height="80"/>
                                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="uKu-1H-iCF"/>
+                                                            <constraint firstAttribute="height" constant="80" id="uKu-1H-iCF"/>
                                                         </constraints>
                                                         <state key="normal" title="志賀　大河"/>
                                                         <connections>
@@ -119,7 +119,7 @@
                                                         <rect key="frame" x="0.0" y="680" width="300" height="80"/>
                                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="sRm-Jg-wvO"/>
+                                                            <constraint firstAttribute="height" constant="80" id="sRm-Jg-wvO"/>
                                                         </constraints>
                                                         <state key="normal" title="津國　由莉子"/>
                                                         <connections>
@@ -130,7 +130,7 @@
                                                         <rect key="frame" x="0.0" y="765" width="300" height="80"/>
                                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="7O2-Hh-Mhf"/>
+                                                            <constraint firstAttribute="height" constant="80" id="7O2-Hh-Mhf"/>
                                                         </constraints>
                                                         <state key="normal" title="堀田　真"/>
                                                         <connections>
@@ -141,7 +141,7 @@
                                                         <rect key="frame" x="0.0" y="850" width="300" height="80"/>
                                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="cSp-aK-UuU"/>
+                                                            <constraint firstAttribute="height" constant="80" id="cSp-aK-UuU"/>
                                                         </constraints>
                                                         <state key="normal" title="田内　翔太郎"/>
                                                         <connections>
@@ -152,7 +152,7 @@
                                                         <rect key="frame" x="0.0" y="935" width="300" height="80"/>
                                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="iXq-ZZ-tBm"/>
+                                                            <constraint firstAttribute="height" constant="80" id="iXq-ZZ-tBm"/>
                                                         </constraints>
                                                         <state key="normal" title="福沢　貴一"/>
                                                         <connections>
@@ -163,7 +163,7 @@
                                                         <rect key="frame" x="0.0" y="1020" width="300" height="80"/>
                                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="u95-3I-rJc"/>
+                                                            <constraint firstAttribute="height" constant="80" id="u95-3I-rJc"/>
                                                         </constraints>
                                                         <state key="normal" title="平田　奈那"/>
                                                         <connections>
@@ -174,7 +174,7 @@
                                                         <rect key="frame" x="0.0" y="1105" width="300" height="80"/>
                                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="e0g-x9-Aat"/>
+                                                            <constraint firstAttribute="height" constant="80" id="e0g-x9-Aat"/>
                                                         </constraints>
                                                         <state key="normal" title="吉澤　優衣"/>
                                                         <connections>
