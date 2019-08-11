@@ -9,18 +9,17 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-//    名前のデータを受け取り格納する変数
+   // 名前のデータを受け取り格納する変数
     @IBOutlet weak var nameLabel: UILabel!
-//    趣味データを受け取り格納する変数
+   // 趣味データを受け取り格納する変数
     @IBOutlet weak var personalLabel: UILabel!
-    //    var nameText : String = ""
-    //    var personText : String = ""
-//    VCから受け取ってきたbuttonのタグ番号の初期値を設定する
+  
+   // VCから受け取ってきたbuttonのタグ番号の初期値を設定する
     var getTag = 0
     
-//    名前データ
+   // 名前データ
     var names : [String] = ["中村泰輔","永井優","小野勇輔","豊岡正紘","分目祐太","金田祐作","甲斐崎香","志賀大河","津國由莉子","堀田真","田内翔太郎","福沢貴一","平田奈那","吉澤優衣"]
-//    趣味データ
+   // 趣味データ
     
     var hobbies : [String] = [
         "サッカー、カラオケ、旅行、食事、飲酒等基本楽しければなんでも好きです。\n ポンコツという自負を持っている",
@@ -46,22 +45,13 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
-//        ボタンのタグ番号とデータの配列番号が一致していれば、各ラベルのテキストに代入する
+        
+        // ボタンのタグ番号とデータの配列番号が一致していれば、各ラベルのテキストに代入する
         nameLabel.text = names[(getTag)]
         personalLabel.text = hobbies[(getTag)]
         
     }
     
     
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
     
 }
